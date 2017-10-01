@@ -1,0 +1,29 @@
+
+
+.card-header1{
+    margin-top: 50px;
+}
+.card{
+    text-align: center;
+}
+
+.card_showhead{
+    text-align: center;
+    height: 50px;
+    background-color: #ffffff;
+}
+.card_show{
+    padding-left: 30px; 
+    margin-top: 25px;
+    background-color: #ffffff
+}
+
+h1.country{
+    color: #070000;
+    text-align: left;
+    font-size: 20px;
+}
+h2.city{
+    color: #070000;
+    position: center;
+}

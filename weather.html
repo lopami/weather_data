@@ -8,11 +8,17 @@
     <title>Weather Data</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="asset/css/weather.css">
 </head>
-
+<style>
+body {
+    background-image: url("img/sky-back.jpeg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+</style>
 <body>
-    <section>
+    <section >
         <div class="row">
             <div class="col-md-3">
 
@@ -30,7 +36,7 @@
                             <div class="input-group">
                                 <input type="text" class="form-control" name="city" placeholder="Search City" value="">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-secondary" type="button" id="getWeather">Get The Weather!</button>
+                                    <button class="btn btn-secondary" type="button" id="getWeather" style="background-color: #1589FF">Get The Weather!</button>
                                 </span>
                             </div>
                         </div>
@@ -60,7 +66,7 @@
     crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
-<script src="weather.js"></script>
+<script src="asset\js\weather.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 </html>
